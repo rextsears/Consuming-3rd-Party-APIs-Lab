@@ -1,0 +1,50 @@
+body {
+    height: auto;
+    width: auto;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/cat_facts-factdisplay.png);
+    background-size: cover;
+    background-color: #091833;
+  }
+  
+  h1 {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(125 83 249);
+    background-color: #ff901f;
+    font-size: 60px;
+  }
+
+  p {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(125 83 249);
+    background-color: #d4ff32;
+    font-size: 40px;  
+  }
+  
+  button {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 25px;
+    background-color: #091833;
+    border: 2px solid #091833;
+    margin-top: 30px;
+    color: #ff2975;
+    outline: none;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: #091833;
+    border: 2px solid #091833;
+    color: #d4ff32;
+    font-weight: bold;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
